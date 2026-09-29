@@ -1,0 +1,24 @@
+# Account inputs, generated filters, reports and tokens belong here.
+/private/
+accounts*.txt
+*.rtf
+*.jsonl
+*token*.json
+.env
+.env.*
+!.env.example
+
+# Python and local tools
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# Runtime journals (even if a custom path is used)
+*.sqlite
+*.sqlite-*
+*.sqlite.lock
+*.sqlite.lock-*
